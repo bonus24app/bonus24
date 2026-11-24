@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bonus24</title>
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;
+ background:#101322;
+ color:white;
+ font-family:Arial,sans-serif;
+ padding:22px;
+}
+header{
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+ margin-bottom:30px;
+}
+.logo{font-size:27px;font-weight:900}
+.logo span{color:#8b72ff}
+.card{
+ background:linear-gradient(135deg,#7258ed,#4132a5);
+ padding:25px;
+ border-radius:20px;
+ margin-bottom:20px;
+}
+.small{color:#d5d0ff;font-size:13px}
+.balance{font-size:36px;font-weight:bold;margin-top:12px}
+h3{margin-top:28px}
+.menu{
+ display:grid;
+ grid-template-columns:1fr 1fr;
+ gap:13px;
+}
+.item{
+ background:#20253a;
+ padding:22px 12px;
+ border-radius:16px;
+ text-align:center;
+ font-size:16px;
+}
+.emoji{font-size:28px;margin-bottom:12px}
+button{
+ width:100%;
+ border:0;
+ border-radius:12px;
+ padding:15px;
+ background:#8068ff;
+ color:white;
+ font-size:16px;
+ margin-top:20px;
+}
+</style>
+</head>
+<body>
+<header>
+ <div class="logo">BONUS<span>24</span></div>
+ <div>👤</div>
+</header>
+
+<div class="card">
+ <div class="small">МОЙ БАЛАНС</div>
+ <div class="balance">0 BP</div>
+ <div class="small">Бонусные баллы</div>
+</div>
+
+<h3>Главное меню</h3>
+
+<div class="menu">
+ <div class="item"><div class="emoji">🎯</div>Задания</div>
+ <div class="item"><div class="emoji">🎁</div>Бонусы</div>
+ <div class="item"><div class="emoji">👥</div>Друзья</div>
+ <div class="item"><div class="emoji">👤</div>Профиль</div>
+</div>
+</body>
+</html>
